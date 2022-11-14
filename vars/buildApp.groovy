@@ -3,5 +3,5 @@ def build() {
 }
 
 def checkout(url, branch) {
-    git branch: '${branch}', url: '${url}'
+    git branch: ${branch}, url: ${url}
 }
